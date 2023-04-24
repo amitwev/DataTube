@@ -1,0 +1,47 @@
+using System.Net;
+using api.Models;
+using api.Services;
+using Microsoft.AspNetCore.Mvc;
+using StackExchange.Redis;
+
+namespace api.Controllers;
+
+[ApiController]
+public class AddDataController : Controller
+{
+    private readonly AddDataService _addDataService;
+    private readonly LoadBalancer _loadBalancer;
+
+    public AddDataController(AddDataService addDataService)
+    {
+        _addDataService = addDataService;
+        _loadBalancer = new LoadBalancer();
+    }
+    
+    [Route("add-data/json")]
+    [Consumes("application/json")]
+    [HttpPost]
+    public async Task<IActionResult> AddJsonData(TextDTO textDto)
+    {
+        var completedText = _addDataService.TextDtoToTextComplete(textDto, Request.Headers);
+        bool result = await _loadBalancer.BalanceRequests(completedText);
+        return result ? Ok(completedText) : Ok(HttpStatusCode.InternalServerError);
+    }
+    
+    [Route("add-data/xml")]
+    [Consumes("application/xml")]
+    [HttpPost]
+    public IActionResult AddXmlData(TextDTO textDto)
+    {
+        //var x = _addDataService.TextDtoToTextComplete(textDto, Request.Headers);
+        return Ok();
+    }
+    
+    [Route("add-file")]
+    [HttpPost]
+    public IActionResult AddFile()
+    {
+        return Ok("Bla");
+    }
+    
+}

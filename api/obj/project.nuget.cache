@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NYsEZ1WbdmsN3UezG0dnfpsGh6FKNsEyr8Xtq8Ftm9nxCIIHYx/o4uUfYOHJWzfMH4ZPHjiCa4Om5VeHg7d6ig==",
+  "success": true,
+  "projectFilePath": "/Users/lahav/RiderProjects/DataTube/api/api.csproj",
+  "expectedPackageFiles": [
+    "/Users/lahav/.nuget/packages/pipelines.sockets.unofficial/2.2.2/pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "/Users/lahav/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
+    "/Users/lahav/.nuget/packages/stackexchange.redis/2.6.90/stackexchange.redis.2.6.90.nupkg.sha512",
+    "/Users/lahav/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
+    "/Users/lahav/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/lahav/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
