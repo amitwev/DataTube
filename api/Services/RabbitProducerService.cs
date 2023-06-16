@@ -9,9 +9,9 @@ public class RabbitProducerService : IProducer
 
     public RabbitProducerService()
     {
-        var factory = new ConnectionFactory() { HostName = "localhost" };
-        _connection = factory.CreateConnection();
-        _channel = _connection.CreateModel();
+        //var factory = new ConnectionFactory() { HostName = "localhost" };
+        //_connection = factory.CreateConnection();
+        //_channel = _connection.CreateModel();
     }
      
     public void Produce()

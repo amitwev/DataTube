@@ -11,10 +11,12 @@ public class AddDataController : Controller
 {
     private readonly AddDataService _addDataService;
     private readonly LoadBalancer _loadBalancer;
+    private readonly ILogger<AddDataController> _logger;
 
-    public AddDataController(AddDataService addDataService)
+    public AddDataController(AddDataService addDataService, ILogger<AddDataController> logger)
     {
         _addDataService = addDataService;
+        _logger = logger;
         _loadBalancer = new LoadBalancer();
     }
     
@@ -23,6 +25,7 @@ public class AddDataController : Controller
     [HttpPost]
     public async Task<IActionResult> AddJsonData(TextDTO textDto)
     {
+        _logger.LogInformation("I'm HERE!!!");
         var completedText = _addDataService.TextDtoToTextComplete(textDto, Request.Headers);
         bool result = await _loadBalancer.BalanceRequests(completedText);
         return result ? Ok(completedText) : Ok(HttpStatusCode.InternalServerError);

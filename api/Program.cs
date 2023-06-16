@@ -12,8 +12,7 @@ namespace YourNamespace
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.UseUrls("https://localhost:3000/");
-
+                    //webBuilder.UseUrls("http://localhost:3000/");
                 });
     }
 }
