@@ -25,7 +25,6 @@ public class AddDataController : Controller
     [HttpPost]
     public async Task<IActionResult> AddJsonData(TextDTO textDto)
     {
-        _logger.LogInformation("I'm HERE!!!");
         var completedText = _addDataService.TextDtoToTextComplete(textDto, Request.Headers);
         bool result = await _loadBalancer.BalanceRequests(completedText);
         return result ? Ok(completedText) : Ok(HttpStatusCode.InternalServerError);
