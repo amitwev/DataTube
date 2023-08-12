@@ -1,0 +1,33 @@
+# Set the base image to use for building the application
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the project file(s) and restore dependencies
+COPY ./api/*.csproj ./api/ 
+COPY shared_library/*.csproj ./shared_library/
+#COPY ms_db/*.csproj ./ms_db/ 
+#COPY DataTube.sln ./
+RUN dotnet restore ./api/api.csproj
+RUN dotnet restore ./shared_library/shared_library.csproj
+#RUN dotnet restore ./ms_db
+RUN ls 
+
+# Copy the remaining source code files and build the application
+COPY ./api ./api/
+COPY ./shared_library ./shared_library/
+#COPY ./ms_db ./
+RUN ls ./api
+RUN dotnet publish ./api -c Release -o out
+
+# Create the final runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+WORKDIR /app
+COPY --from=build-env /app/out .
+
+# Expose the port(s) your application listens on
+EXPOSE 3000
+
+# Set the entry point for the container
+ENTRYPOINT ["dotnet", "api.dll"]
