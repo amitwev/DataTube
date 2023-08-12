@@ -16,7 +16,7 @@ public class Program
     {
         Console.WriteLine("Hello World!");
 
-        
+         
         ISerialize<CompletedText> serialize = new JsonSerializer<CompletedText>();
         FlowManagerService flowManagerService = new FlowManagerService(serialize);
 
@@ -36,7 +36,7 @@ public class Program
         {
             Console.WriteLine(ex);
         }
-        
+         
 
         while (true)
         {
