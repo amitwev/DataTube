@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NYsEZ1WbdmsN3UezG0dnfpsGh6FKNsEyr8Xtq8Ftm9nxCIIHYx/o4uUfYOHJWzfMH4ZPHjiCa4Om5VeHg7d6ig==",
+  "dgSpecHash": "sDsEDVv0kjX/aV2VU0odyM1UVqTr4/Lgbjq18Ri3T2a91K88zdlcZ9xTqTcJzoCyf2NEcMrxsfdnUBi60Gq8ew==",
   "success": true,
-  "projectFilePath": "/Users/lahav/RiderProjects/DataTube/api/api.csproj",
+  "projectFilePath": "/Users/lahav/Desktop/Personal/DataTube/api/api.csproj",
   "expectedPackageFiles": [
     "/Users/lahav/.nuget/packages/pipelines.sockets.unofficial/2.2.2/pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "/Users/lahav/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",

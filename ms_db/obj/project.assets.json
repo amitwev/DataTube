@@ -1820,11 +1820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lahav/RiderProjects/DataTube/ms_db/ms_db.csproj",
+      "projectUniqueName": "/Users/lahav/Desktop/Personal/DataTube/ms_db/ms_db.csproj",
       "projectName": "ms_db",
-      "projectPath": "/Users/lahav/RiderProjects/DataTube/ms_db/ms_db.csproj",
+      "projectPath": "/Users/lahav/Desktop/Personal/DataTube/ms_db/ms_db.csproj",
       "packagesPath": "/Users/lahav/.nuget/packages/",
-      "outputPath": "/Users/lahav/RiderProjects/DataTube/ms_db/obj/",
+      "outputPath": "/Users/lahav/Desktop/Personal/DataTube/ms_db/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lahav/.nuget/NuGet/NuGet.Config"
@@ -1839,8 +1839,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/lahav/RiderProjects/DataTube/shared_library/shared_library.csproj": {
-              "projectPath": "/Users/lahav/RiderProjects/DataTube/shared_library/shared_library.csproj"
+            "/Users/lahav/Desktop/Personal/DataTube/shared_library/shared_library.csproj": {
+              "projectPath": "/Users/lahav/Desktop/Personal/DataTube/shared_library/shared_library.csproj"
             }
           }
         }
@@ -1884,7 +1884,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
       }
     }
   }
