@@ -1,0 +1,24 @@
+﻿version: '3'
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"   # Redis port
+  rabbitmq:
+    image: rabbitmq:3.12-management
+    ports:
+      - "5672:5672"   # AMQP port
+      - "15672:15672" # Management UI port
+  api:
+    build:
+      context: ./
+      dockerfile: DockerfileApi
+    ports:
+      - "3000:80"  # Map port 8080 on your host to port 80 in the container
+  ms_db:
+    build:
+      context: ./
+      dockerfile: DockerfileMsDb
+    depends_on:
+      - redis
+      - rabbitmq
