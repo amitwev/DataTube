@@ -1,38 +1,34 @@
 ﻿<Properties StartupConfiguration="{6D7F962F-06E2-474B-8E58-77B879150D2A}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ms__db PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ms_db/Services/Redis/RedisConsumerService.cs">
-    <Files>
-      <File FileName="ms_db/Services/Rabbit/RabbitConsumerService.cs" Line="25" Column="44" />
-      <File FileName="ms_db/Program.cs" Line="12" Column="1" />
-      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.307/Microsoft.Common.CurrentVersion.targets" Line="4685" Column="5" />
-      <File FileName="ms_db/Services/Redis/RedisConsumerService.cs" Line="15" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DataTube" expanded="True">
-            <Node name="ms_db">
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Services">
-                <Node name="Redis" expanded="True">
-                  <Node name="RedisConsumerService.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/lahav/Desktop/Personal/DataTube/ms_db/Services/Redis/RedisConsumerService.cs" relfile="ms_db/Services/Redis/RedisConsumerService.cs" line="15" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ms_db/Program.cs">
+    <Files>
+      <File FileName="ms_db/Services/Rabbit/RabbitConsumerService.cs" />
+      <File FileName="ms_db/Program.cs" Line="11" Column="27" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.307/Microsoft.Common.CurrentVersion.targets" />
+      <File FileName="ms_db/Services/Redis/RedisConsumerService.cs" />
+      <File FileName="api/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DataTube" expanded="True">
+            <Node name="ms_db" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="Rabbit" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

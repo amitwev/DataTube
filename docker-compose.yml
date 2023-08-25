@@ -21,4 +21,5 @@ services:
       dockerfile: DockerfileMsDb
     depends_on:
       - redis
-      - rabbitmq
+      - rabbitmq 
+
