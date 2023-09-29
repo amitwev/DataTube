@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-29T08:34:02.317Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9VRJsxRH_bsHdRf2NmnK" version="21.7.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-09-29T08:34:13.496Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-1mdRP-sOKFNa9VTCPxn" version="21.7.2" type="github" pages="8">
   <diagram id="xsvHOerj5issGatHpZT5" name="Workflow">
     <mxGraphModel dx="954" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -129,42 +129,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="m4BF-P6X6XQnN7LYEZRi-1" value="&lt;h1&gt;&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Services:&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/h1&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;1. Upload textual data&lt;br&gt;2. Search textual data&lt;br&gt;3. Secret Data Service (Vault Services)&lt;/font&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;br&gt;4. Elastic log based system (Grafana / Kibana to present the data).&lt;/font&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="95" width="500" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-1" value="IElastic" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="390" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-2" value="CRUD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="480" y="400" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-3" value="Super Search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="480" y="430" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-5" value="Implements" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2sryOC1a-27GbK4C8AxK-1" target="2sryOC1a-27GbK4C8AxK-7" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="430" as="sourcePoint" />
-            <mxPoint x="440" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-6" value="ILogger" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="390" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-7" value="ElasticService" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-10" value="LoggerElastic" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-11" value="Implements" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2sryOC1a-27GbK4C8AxK-1" target="2sryOC1a-27GbK4C8AxK-10" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="480" as="sourcePoint" />
-            <mxPoint x="450" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2sryOC1a-27GbK4C8AxK-12" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2sryOC1a-27GbK4C8AxK-1" target="2sryOC1a-27GbK4C8AxK-6" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="430" as="sourcePoint" />
-            <mxPoint x="490" y="430" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
