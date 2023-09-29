@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-29T08:33:47.963Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="sy6-uOxk2-b7k2xuEuhR" version="21.7.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-09-29T08:34:02.317Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9VRJsxRH_bsHdRf2NmnK" version="21.7.2" type="github" pages="8">
   <diagram id="xsvHOerj5issGatHpZT5" name="Workflow">
     <mxGraphModel dx="954" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -123,12 +123,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cx9ELP2NZdnlZSR1v4LI" name="Services list">
-    <mxGraphModel dx="954" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="m4BF-P6X6XQnN7LYEZRi-1" value="&lt;h1&gt;&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Services:&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/h1&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;1. Upload textual data&lt;br&gt;2. Search textual data&lt;br&gt;3. Secret Data Service (Vault Services)&lt;/font&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;br&gt;4. Elastic log based system (Grafana / Kibana to present the data).&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;_______Maybe Later&lt;/font&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;_______&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;5. Capcha (are you a person?)&lt;br&gt;6.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Authentication (Are you who you claim you to be?)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;7. Email Server&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="200" y="50" width="500" height="260" as="geometry" />
+        <mxCell id="m4BF-P6X6XQnN7LYEZRi-1" value="&lt;h1&gt;&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Services:&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/h1&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;1. Upload textual data&lt;br&gt;2. Search textual data&lt;br&gt;3. Secret Data Service (Vault Services)&lt;/font&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;br&gt;4. Elastic log based system (Grafana / Kibana to present the data).&lt;/font&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="200" y="95" width="500" height="170" as="geometry" />
         </mxCell>
         <mxCell id="2sryOC1a-27GbK4C8AxK-1" value="IElastic" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="390" width="80" height="80" as="geometry" />
