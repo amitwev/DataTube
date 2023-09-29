@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-29T08:35:08.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oZ5tPwahQWSSKJmRCdqQ" version="21.7.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-09-29T08:35:28.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ulMwY4WkNh-oylqBiZ50" version="21.7.2" type="github" pages="4">
   <diagram id="xsvHOerj5issGatHpZT5" name="Workflow">
     <mxGraphModel dx="954" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -233,44 +233,6 @@
             <mxPoint x="99" y="870" as="sourcePoint" />
             <mxPoint x="400" y="980" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="fQLXhOJWeCZmgLwnc9Ld" name="Flow search data">
-    <mxGraphModel dx="954" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ACP83E2s5DXJ-F97wHSU" name="Flow register vault">
-    <mxGraphModel dx="954" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="dAMGChHZDEyiXQ4n3zta-1" value="How is a user able to access to Vault" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" parent="1" vertex="1">
-          <mxGeometry x="120" y="40" width="610" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="6RlsAQ8_9UGA3f6lqKvX" name="Flow CRUD for vault">
-    <mxGraphModel dx="954" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="8sK6OGT1Tw6818X_4W7o" name="Flow logs">
-    <mxGraphModel dx="1434" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="AcGySdw3QlrmuNLdnnd3-1" value="A log will be written&lt;br&gt;&lt;font size=&quot;3&quot;&gt;and this page will explain how to we enable a kibana / grafana to get our logs?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" parent="1" vertex="1">
-          <mxGeometry x="124" y="40" width="580" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
