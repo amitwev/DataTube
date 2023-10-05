@@ -16,6 +16,8 @@ public record CompletedText
         Author = author;
         Date = DateTime.Now;
     }
+    
+    public CompletedText(){}
 
     public override string ToString()
     {

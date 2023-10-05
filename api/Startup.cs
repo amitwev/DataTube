@@ -14,7 +14,7 @@ namespace YourNamespace
             services.AddControllers(options =>
             {
                 options.InputFormatters.Add(new XmlSerializerInputFormatter(options));
-                // options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+                options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
             });
             services.AddSingleton<AddDataService>();
         }
