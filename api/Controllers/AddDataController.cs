@@ -33,10 +33,11 @@ public class AddDataController : Controller
     [Route("add-data/xml")]
     [Consumes("application/xml")]
     [HttpPost]
-    public IActionResult AddXmlData(TextDTO textDto)
+    public async Task<IActionResult> AddXmlData(TextDTO textDto)
     {
-        //var x = _addDataService.TextDtoToTextComplete(textDto, Request.Headers);
-        return Ok();
+        var completedText = _addDataService.TextDtoToTextComplete(textDto, Request.Headers);
+        bool result = await _loadBalancer.BalanceRequests(completedText);
+        return result ? Ok(completedText) : Ok(HttpStatusCode.InternalServerError); 
     }
     
     [Route("add-file")]
