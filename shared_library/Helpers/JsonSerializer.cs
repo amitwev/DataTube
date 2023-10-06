@@ -9,9 +9,9 @@ public class JsonSerializer<T> : ISerialize<T>
     /// </summary>
     /// <param name="obj"></param>
     /// <returns></returns>
-    public string Serizlie(T obj)
+    public string Serialize(T obj)
     {
-        return JsonSerializer.Serialize(obj);
+        throw new NotImplementedException();
     }
 
     /// <summary>
