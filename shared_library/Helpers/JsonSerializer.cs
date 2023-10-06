@@ -11,7 +11,7 @@ public class JsonSerializer<T> : ISerialize<T>
     /// <returns></returns>
     public string Serialize(T obj)
     {
-        throw new NotImplementedException();
+        return JsonSerializer.Serialize(obj);
     }
 
     /// <summary>
